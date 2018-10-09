@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devise-width, user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150" height="150" viewBox="0 0 150 150">
+        <image xlink:href="../svg/logopinky.svg" width="150" height="150" x="0" y="0"/>
+      </svg>
+      <h1>HOJA DE VIDA</h1>
+      <h2>Benjamín Hernan Venegas Ariza</h2>
+      <h3>Nacimiento: 19/12/1994</h3>
+      <h3>Vive: Santiago de Chile</h3>
+      <a href="../index.html">Inicio</a><br/>
+      <a href="#educacion">Educacion</a> <br/>
+      <a href="../paginas/experiencia.html">Experiencia</a>
+    </header>
+    <article>
+      <h1 id="educacion">Educación</h1>
+        <table border="1">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>lugar</th>
+            <th>culminó</th>
+          </tr>
+          <tr>
+            <td>1998</td>
+            <td>Colegio Seminario Pontificio Menor</td>
+            <td>Santiago</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>Universidad Finis Terrae</td>
+            <td>Santiago</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>NextUniversity</td>
+            <td>online</td>
+            <td>2018</td>
+          </tr>
+        </table>
+        <form name="agregar_estudios">
+          <legend><h2>Agregar Estudios</h2></legend>
+            <label for="año"><strong>Año</strong></label>
+            <select id="año" name="años">
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2005</option>
+              <option>2004</option>
+              <option>2003</option>
+              <option>2002</option>
+              <option>2001</option>
+              <option>2000</option>
+              <option>1999</option>
+              <option>1998</option>
+              <option>1997</option>
+              <option>1996</option>
+              <option>1995</option>
+              <option>1994</option>
+              <option>1993</option>
+              <option>1992</option>
+              <option>1991</option>
+              <option>1990</option>
+            </select>
+            <br/>
+            <label for="institucion"><strong>Institución</strong></label>
+            <input type="text" id="istitucion" placeholder="Colegio, Instituto" required>
+            <br/>
+            <label for="lugar"><strong>Lugar</strong></label>
+            <textarea id="lugar" name="lugares" rows="2" cols="40"></textarea>
+            <br/>
+            <br/>
+            <input type="submit" name="enviar">
+        </form>
+    </article>
+    <footer>
+      <p><strong>Mail:</strong> benjamin.venegas@ariza.cl | <strong>Teléfono:</strong> +56 9 745 31 829  |  <strong>Redes Sociales:</strong> <a href="https://www.instagram.com/bva_pinky/">Instagram</a></p>
+    </footer>
+  </body>
+</html>
